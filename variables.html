@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta name="generator" content="MediaWiki 1.15.5-3">
+		<meta name="robots" content="noindex,follow">
+		<meta name="keywords" content="MDP">
+		<link rel="alternate" type="application/x-wiki" title="Edit" href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=edit">
+		<link rel="edit" title="Edit" href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=edit">
+		<link rel="shortcut icon" href="https://www.isweb.uni-koblenz.de/favicon.ico">
+		<link rel="search" type="application/opensearchdescription+xml" href="https://www.isweb.uni-koblenz.de/mediawiki/opensearch_desc.php" title="WEST Mediawiki (en)">
+		<link rel="alternate" type="application/rss+xml" title="WEST Mediawiki RSS feed" href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=Special:RecentChanges&amp;feed=rss">
+		<link rel="alternate" type="application/atom+xml" title="WEST Mediawiki Atom feed" href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=Special:RecentChanges&amp;feed=atom">
+		<title>MDP - WEST Mediawiki</title>
+		<link rel="stylesheet" href="variables-Dateien/commonPrint.css" type="text/css">
+		<link rel="stylesheet" href="variables-Dateien/index.css" type="text/css">
+		<link rel="stylesheet" href="variables-Dateien/index_002.css" type="text/css">
+		<link rel="stylesheet" href="variables-Dateien/index_004.css" type="text/css">
+		<link rel="stylesheet" href="variables-Dateien/index_003.css" type="text/css">
+		<!--[if lt IE 7]><script type="text/javascript" src="/mediawiki/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type="text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "/mediawiki/skins";
+		var wgArticlePath = "/mediawiki/index.php/$1";
+		var wgScriptPath = "/mediawiki";
+		var wgScript = "/mediawiki/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "https://www.isweb.uni-koblenz.de";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "MDP";
+		var wgTitle = "MDP";
+		var wgAction = "view";
+		var wgArticleId = "2034";
+		var wgIsArticle = true;
+		var wgUserName = "Ckling";
+		var wgUserGroups = ["*", "user", "autoconfirmed"];
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 24667;
+		var wgVersion = "1.15.5-3";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		var wgAjaxWatch = {"watchMsg": "Watch", "unwatchMsg": "Unwatch", "watchingMsg": "Watching...", "unwatchingMsg": "Unwatching..."};
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="variables-Dateien/wikibits.js"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="variables-Dateien/ajax.js"></script>
+		<script type="text/javascript" src="variables-Dateien/ajaxwatch.js"></script>
+		<link rel="alternate" type="application/rdf+xml" title="MDP" href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=Special:ExportRDF/MDP&amp;xmlmime=rdf">
+		<script type="text/javascript" src="variables-Dateien/index.php"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-MDP skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">MDP</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From WEST Mediawiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<table id="toc" class="toc" summary="Contents"><tbody><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#The_Multi_Dirichlet_Process"><span class="tocnumber">1</span> <span class="toctext">The Multi Dirichlet Process</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Three_Level_MDP_Model_Parameters_for_MGTD_and_similar_models"><span class="tocnumber">1.1</span> <span class="toctext">Three Level MDP Model Parameters for MGTD and similar models</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Main_variables"><span class="tocnumber">1.1.1</span> <span class="toctext">Main variables</span></a></li>
+<li class="toclevel-3"><a href="#Hyperparameters_.28in_alphabetical_order.29"><span class="tocnumber">1.1.2</span> <span class="toctext">Hyperparameters (in alphabetical order)</span></a></li>
+<li class="toclevel-3"><a href="#Helping_variables_for_sampling"><span class="tocnumber">1.1.3</span> <span class="toctext">Helping variables for sampling</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></tbody></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="The_Multi_Dirichlet_Process" id="The_Multi_Dirichlet_Process"></a><h1> <span class="mw-headline">The Multi Dirichlet Process</span></h1>
+<p>TBD: Description of MDP using the Chinese restaurant scheme.
+</p>
+<a name="Three_Level_MDP_Model_Parameters_for_MGTD_and_similar_models" id="Three_Level_MDP_Model_Parameters_for_MGTD_and_similar_models"></a><h2> <span class="mw-headline">Three Level MDP Model Parameters for MGTD and similar models</span></h2>
+<p>These are all parameters for a three level MDP model as used by MGTD 
+(see WWW paper) including latent variables, helping variables and 
+hyperparameters.
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/File:MGTD.jpg" class="image" title="MGTD model"><img alt="" src="variables-Dateien/180px-MGTD.jpg" class="thumbimage" border="0" height="376" width="180"></a>  <div class="thumbcaption"><div class="magnify"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/File:MGTD.jpg" class="internal" title="Enlarge"><img src="variables-Dateien/magnify-clip.png" alt="" height="11" width="15"></a></div>MGTD model</div></div></div> 
+<a name="Main_variables" id="Main_variables"></a><h3> <span class="mw-headline">Main variables</span></h3>
+<table>
+<tbody><tr>
+<td><span class="texhtml"><i>V</i></span>
+</td><td>Vocabulary size of the corpus
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>M</i></span>
+</td><td>Number of documents in the corpus
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>H</i></span>
+</td><td>A Dirichlet distribution on the space of all possible topics <span class="texhtml">Θ</span> with uniform concentration parameter <span class="texhtml">β</span>
+</td></tr>
+<tr>
+<td><span class="texhtml">β</span>
+</td><td>Uniform concentration parameter for the Dirichlet distributed probability function H.
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>G</i><sub>0</sub></span>
+</td><td>A probability distribution on <span class="texhtml">Θ</span> drawn from a Dirichlet process (DP) with base distribution <span class="texhtml"><i>H</i></span> and concentration parameter <span class="texhtml">γ</span>
+</td></tr>
+<tr>
+<td><span class="texhtml">γ</span>
+</td><td>Concentration parameter for the first level DP
+</td></tr>
+<tr>
+<td><img class="tex" alt="G^s_l" src="variables-Dateien/d5e71ee77a30ce0375771c84f9126932.png">
+</td><td>A probability distribution on <span class="texhtml">Θ</span> drawn from a Dirichlet process with base distribution <span class="texhtml"><i>G</i><sub>0</sub></span> and concentration parameter <span class="texhtml">α<sub>0</sub></span>
+</td></tr>
+<tr>
+<td><span class="texhtml">α<sub>0</sub></span>
+</td><td>Concentration parameter for the second level DPs
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>L</i></span>
+</td><td>Number of distributions on the second level
+</td></tr>
+<tr>
+<td><img class="tex" alt="G^d_j" src="variables-Dateien/c2f9528344acc378262429cf92994157.png">
+</td><td>A probability distribution on <span class="texhtml">Θ</span> drawn from a multi-Dirichlet process with parent base distributions <img class="tex" alt="G^s_p, \ p \in P_l" src="variables-Dateien/3f7006dfaa33b6ac8a35b0048ec924db.png">, concentration parameter <span class="texhtml"><i>A</i></span> and mixing proportions <img class="tex" alt="\mathbf{\eta_l}" src="variables-Dateien/1c42561e1bc9a9a1bb736a6a6014eaee.png">
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>A</i></span>
+</td><td>Concentration parameter for the third level MDPs
+</td></tr>
+<tr>
+<td><span class="texhtml">η<sub><i>l</i></sub></span>
+</td><td>Mixing proportions for third level MDPs, a multinomial 
+distribution over parent distributions. Has a uniform Dirichlet prior 
+with parameter <span class="texhtml">δ</span>.
+</td></tr>
+<tr>
+<td><span class="texhtml">δ</span>
+</td><td>Uniform concentration parameter of a Dirichlet prior over <span class="texhtml">η<sub><i>l</i></sub></span>
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>P</i><sub><i>l</i></sub></span>
+</td><td>Indices of parent base distributions
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>M</i></span>
+</td><td>Number of distributions on the third level
+</td></tr>
+<tr>
+<td><span class="texhtml">θ<sub><i>j</i><i>i</i></sub></span>
+</td><td>Topics drawn from <img class="tex" alt="G^d_j" src="variables-Dateien/c2f9528344acc378262429cf92994157.png">
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>w</i><sub><i>j</i><i>i</i></sub></span>
+</td><td>Word drawn from <img class="tex" alt="\theta^d_{ji}" src="variables-Dateien/012b37b08dad532318e41b80a3a3d855.png">
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>N</i></span>
+</td><td>Number of topics and words drawn from <img class="tex" alt="G^d_j" src="variables-Dateien/c2f9528344acc378262429cf92994157.png">
+</td></tr></tbody></table>
+<a name="Hyperparameters_.28in_alphabetical_order.29" id="Hyperparameters_.28in_alphabetical_order.29"></a><h3> <span class="mw-headline">Hyperparameters (in alphabetical order)</span></h3>
+<p>These parameters are for the optional parameter sampling. Note that 
+sampling for Dirichlet parameters takes approx. 200 iterations and 
+significantly slows down the topic sampling process.
+</p>
+<table>
+<tbody><tr>
+<td><img class="tex" alt="A_{a} , \ A_{b}" src="variables-Dateien/3c61d8278683def302fefa8986f3eb28.png">
+</td><td>Parameters for a Gamma prior over <span class="texhtml"><i>A</i></span> with shape <span class="texhtml"><i>A</i><sub><i>a</i></sub></span> and rate <span class="texhtml"><i>A</i><sub><i>b</i></sub></span>
+</td></tr>
+<tr>
+<td><img class="tex" alt="\alpha_{0a} , \ \alpha_{0b}" src="variables-Dateien/6903d9d2e229c6d1da98673486efb7df.png">
+</td><td>Parameters for a Gamma prior over <span class="texhtml">α<sub>0</sub></span> with shape <span class="texhtml">α<sub>0<i>a</i></sub></span> and rate <span class="texhtml">α<sub>0<i>b</i></sub></span>
+</td></tr>
+<tr>
+<td><img class="tex" alt="\beta_a , \ \beta_b" src="variables-Dateien/3d194d6ba37b78b0525795e9eee851b0.png">
+</td><td>Parameters for a Gamma prior over <span class="texhtml">β</span> with shape <span class="texhtml">β<sub><i>a</i></sub></span> and rate <span class="texhtml">β<sub><i>b</i></sub></span>
+</td></tr>
+<tr>
+<td><img class="tex" alt="\gamma_a , \ \gamma_b" src="variables-Dateien/6eb71afa54005898631a25c2f5642753.png">
+</td><td>Parameters for a Gamma prior over <span class="texhtml">γ</span> with shape <span class="texhtml">γ<sub><i>a</i></sub></span> and rate <span class="texhtml">γ<sub><i>b</i></sub></span>
+</td></tr>
+<tr>
+<td><img class="tex" alt="\delta_a , \ \delta_b" src="variables-Dateien/c44210ef90bd5b960ac8c0a46180753f.png">
+</td><td>Parameters for a Gamma prior over <span class="texhtml">δ</span> with shape <span class="texhtml">δ<sub><i>a</i></sub></span> and rate <span class="texhtml">δ<sub><i>b</i></sub></span>
+</td></tr>
+</tbody></table>
+<a name="Helping_variables_for_sampling" id="Helping_variables_for_sampling"></a><h3> <span class="mw-headline">Helping variables for sampling</span></h3>
+<table>
+<tbody><tr>
+<td><span class="texhtml"><i>K</i></span>
+</td><td>Number of topics in use at current sampling step (only a finite set of topics is drawn from <span class="texhtml">Θ</span> and assigned to words as the number of words is finite)
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>m</i><sub><i>k</i></sub></span>
+</td><td>Number of tables assigned to the <b>k</b>th topic in the Dirichlet process at level one which generates <span class="texhtml"><i>G</i><sub>0</sub></span>
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>m</i><sub><i>l</i><i>k</i></sub></span>
+</td><td>Number of tables assigned to the <b>k</b>th topic in the <b>l</b>th multi-Dirichlet process at level two which generates <img class="tex" alt="G^s_l" src="variables-Dateien/d5e71ee77a30ce0375771c84f9126932.png">
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>m</i><sub><i>j</i><i>k</i><i>l</i></sub></span>
+</td><td>Number of tables from parent base distribution with index <b>l</b> assigned to the <b>k</b>th topic in the <b>l</b>th multi-Dirichlet process at level three which generates <img class="tex" alt="G^d_j" src="variables-Dateien/c2f9528344acc378262429cf92994157.png">
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>n</i><sub><i>j</i><i>k</i></sub></span>
+</td><td>Number of times the <b>k</b>th topic was assigned to a word in the <b>j</b>th document by sampling a topic from <img class="tex" alt="G^d_j" src="variables-Dateien/c2f9528344acc378262429cf92994157.png">
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>n</i><sub><i>k</i><i>t</i></sub></span>
+</td><td>Number of times the <b>t</b>th term was assigned to the <b>k</b>th topic
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>n</i><sub><i>k</i><i>t</i></sub></span>
+</td><td>Number of times the <b>k</b>th topic was assigned to a term
+</td></tr>
+<tr>
+<td><span class="texhtml"><i>z</i><sub><i>j</i><i>i</i></sub></span>
+</td><td>Topic assignment to the <b>i</b>th word in document <b>j</b>. <img class="tex" alt="z_{ij} \in \{1,...,K\}" src="variables-Dateien/eaff086f9360da48d06a6eb6eae179ae.png">
+</td></tr>
+<tr>
+<td><span class="texhtml">π<sub>0</sub></span>
+</td><td>Multinomial distribution over the topic indices as an alternative representation of the distribution over the topic space in <span class="texhtml"><i>G</i><sub>0</sub></span>
+</td></tr>
+<tr>
+<td><img class="tex" alt="\pi^s_l" src="variables-Dateien/19c3929505f9294a077384f48c03ce5d.png">
+</td><td>Multinomial distribution over the topic indices as an alternative representation of the distribution over the topic space in <img class="tex" alt="G^s_l" src="variables-Dateien/d5e71ee77a30ce0375771c84f9126932.png">
+</td></tr>
+<tr>
+<td><img class="tex" alt="\pi^d_j" src="variables-Dateien/d54c97833e308d47e8df9e970f0b15b4.png">
+</td><td>Multinomial distribution over the topic indices as an alternative representation of the distribution over the topic space in <img class="tex" alt="G^d_j" src="variables-Dateien/c2f9528344acc378262429cf92994157.png">
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 231/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mediawiki:pcache:idhash:2034-0!1!0!!en!2!printable=1 and timestamp 20130112165649 -->
+<div class="printfooter">
+Retrieved from "<a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/MDP">https://www.isweb.uni-koblenz.de/mediawiki/index.php/MDP</a>"</div>
+						<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/MDP" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=Talk:MDP&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-edit"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=edit" title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a></li>
+				 <li id="ca-history"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				 <li id="ca-delete"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=delete" title="Delete this page [d]" accesskey="d">Delete</a></li>
+				 <li id="ca-move"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:MovePage/MDP" title="Move this page [m]" accesskey="m">Move</a></li>
+				 <li id="ca-watch"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=watch" title="Add this page to your watchlist [w]" accesskey="w">Watch</a></li>
+				 <li id="ca-purge"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;action=purge">Refresh</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-userpage"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/User:Ckling" title="Your user page [.]" accesskey=".">Ckling</a></li>
+				<li id="pt-mytalk"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/User_talk:Ckling" title="Your talk page [n]" accesskey="n" class="new">My talk</a></li>
+				<li id="pt-preferences"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Preferences" title="Your preferences">My preferences</a></li>
+				<li id="pt-watchlist"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Watchlist" title="The list of pages you are monitoring for changes [l]" accesskey="l">My watchlist</a></li>
+				<li id="pt-mycontris"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Contributions/Ckling" title="List of your contributions [y]" accesskey="y">My contributions</a></li>
+				<li id="pt-logout"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=Special:UserLogout&amp;returnto=MDP" title="Log out">Log out</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(https://www.west.uni-koblenz.de/mediawiki/images/d/d1/WeST_Logo_Colored.png);" href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class="generated-sidebar portlet" id="p-navigation">
+		<h5>Navigation</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-mainpage-description"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Main_Page">Main page</a></li>
+				<li id="n-portal"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/WEST_Mediawiki:Community_Portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/WEST_Mediawiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mediawiki/index.php" id="searchform"><div>
+				<input name="title" value="Special:Search" type="hidden">
+				<input id="searchInput" name="search" title="Search WEST Mediawiki [f]" accesskey="f" type="text">
+				<input name="go" class="searchButton" id="searchGoButton" value="Go" title="Go to a page with this exact name if exists" type="submit">
+				<div><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Search" rel="search">Advanced search</a></div>
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:WhatLinksHere/MDP" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:RecentChangesLinked/MDP" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-upload"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+<li id="t-specialpages"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;printable=yes&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php?title=MDP&amp;oldid=24667" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-smwbrowselink"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/Special:Browse/MDP" title="Special:Browse/MDP">Browse properties</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="variables-Dateien/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki"></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 12 January 2013, at 14:50.</li>
+					<li id="viewcount">This page has been accessed 58 times.</li>
+					<li id="privacy"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/WEST_Mediawiki:Privacy_policy" title="WEST Mediawiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/WEST_Mediawiki:About" title="WEST Mediawiki:About">About WEST Mediawiki</a></li>
+					<li id="disclaimer"><a href="https://www.isweb.uni-koblenz.de/mediawiki/index.php/WEST_Mediawiki:General_disclaimer" title="WEST Mediawiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.321 secs. -->
+</body></html>
