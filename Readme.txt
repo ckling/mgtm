@@ -44,10 +44,15 @@ The MisesFisher clustering and the Delaunay triangulation call in MF_Delaunay.ja
 
 A list of variables used in the model is given in variables.html
 
-Example call of MGTM for car dataset kindly provided by Zhijun Yin from the paper 
-"Geographical Topic DIscovery and Comparison", WWW2011 (the data are encrypted, the password is available on request from MGTM::c-kling:de):
+Example call of MGTM for car dataset (available on request from MGTM[at]c-kling.de):
 
 java -Xmx3000M -jar MGTD.jar -dir ./example/ -dfile car.txt -est -L 500 -beta 0.5 -gamma 1.0 -alpha0 1.0 -Alpha 1.0 -sampleHyper true -gammaa 1.0 -gammab 0.1 -alpha0a 1.0 -alpha0b 0.1 -Alphaa 0.1 -Alphab 0.1 -delta 10.0 -savestep 5 -twords 20 -niters 200
+
+dir is the directory of the dataset. The output is stored in this directory.
+L gives the number of geographical regions (clusters) for the initial clustering
+gamma, beta, alpha0, Alpha, delta are the initial parameters for the Dirichlet distributions. 
+Alphaa, Alphab and the corresponding parameters for the other parameters are Gamma-distributed hyper-parameters for the Dirichlet parameters.
+The number of topics is inferred.
 
 Data format:
 The first line gives the number of documents in the file.
